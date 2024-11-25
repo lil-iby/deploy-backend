@@ -13,6 +13,7 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 
 // Inscription
 Route::post('/register', [RegisteredUserController::class, 'store']); 
+
 // Connexion
 Route::post('/login', [AuthenticatedSessionController::class, 'store']); 
 
